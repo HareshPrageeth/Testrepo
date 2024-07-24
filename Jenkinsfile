@@ -4,6 +4,7 @@ pipeline{
         stage('dev'){
             steps{
                 echo "dev"
+                python Test.py
             }
         }
         stage("staging"){
